@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Etiquetas y cajas de texto para la motocicleta -->
+    <TextView android:text="Número de Serie" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/editNumeroSerie" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:text="Marca" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/editMarca" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:text="Modelo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/editModelo" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:text="Cilindrada" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/editCilindrada" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <!-- Botones para agregar, buscar y limpiar -->
+    <Button android:id="@+id/btnAgregar" android:text="Agregar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnBuscar" android:text="Buscar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnLimpiar" android:text="Limpiar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <!-- Etiqueta para mostrar resultados o advertencias -->
+    <TextView android:id="@+id/textResultado" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
