@@ -1,4 +1,4 @@
-## Práctica 03 - Activity con arreglos de objetos
+# Práctica 03 - Activity con arreglos de objetos
 
 ## Instrucciones: Implementar en Android Studio en lenguaje Kotlin empleando el paradigma orientado a objetos, una Activity (interfaz gráfica) y un arreglo de objetos. Se debe cumplir las siguientes características:  
 * Modelar e implementar una clase bajo el tema de Motocicleta, con cuatro atributos como mínimo, de distintos tipo de dato.
